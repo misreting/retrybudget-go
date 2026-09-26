@@ -1,0 +1,13 @@
+# Built binaries
+/retrybudget-go
+/amplification
+*.exe
+*.test
+
+# Coverage output
+*.out
+coverage.txt
+coverage.html
+
+# Editor/OS cruft
+.DS_Store

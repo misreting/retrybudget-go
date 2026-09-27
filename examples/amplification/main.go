@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	retrybudget "github.com/__GH_OWNER__/retrybudget-go"
+	retrybudget "github.com/agentscope-ai-java/retrybudget-go"
 )
 
 const (

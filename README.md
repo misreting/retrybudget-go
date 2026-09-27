@@ -137,7 +137,7 @@ that returns `(T, error)`.
 ## Install
 
 ```sh
-go get github.com/__GH_OWNER__/retrybudget-go
+go get github.com/agentscope-ai-java/retrybudget-go
 ```
 
 Requires Go 1.27.1 (uses `math/rand/v2`; a lower Go 1.22+ toolchain would also work if
@@ -151,7 +151,7 @@ import (
 	"net/http"
 	"time"
 
-	retrybudget "github.com/__GH_OWNER__/retrybudget-go"
+	retrybudget "github.com/agentscope-ai-java/retrybudget-go"
 )
 
 // One budget per dependency, created once and shared by everything that calls it.
